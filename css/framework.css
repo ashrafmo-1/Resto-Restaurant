@@ -1,0 +1,46 @@
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+display: block;
+}
+
+.bebetween-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-star,
+.fa-star-half {
+    color: gold;
+}
+
+.align-c {
+    text-align: center;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.m-t {
+    margin-top: 100px;
+}
+
+.m-b {
+    margin-bottom: 500px;
+}
